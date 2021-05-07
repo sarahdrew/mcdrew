@@ -1,0 +1,121 @@
+body {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-list {
+  position: fixed;
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0;
+  top:0;
+  width: 100%;
+  list-style: none;
+  padding-left: 20%;
+}
+
+.nav-list a, .nav-list a:visited {
+  display: flex;
+  float:left;
+  align-items: center;
+  color:white;
+  margin: 2%;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 900;
+  
+}
+
+
+header {
+  margin-top: 5%;
+  background-size: 31%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.countdown-container {
+  width: 50%;
+  display: inline-block;
+  margin-left: 25%;
+  border: 1px solid #000000;
+  background: #448b66;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.centered-logo {
+  width: 25%;
+  margin-left: 36%;
+}
+
+#the-mcdrew {
+  background-size: 14%;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+a:visited {
+  color: white;
+}
+
+.header-photo {
+  background-image: url('./assets/checker-background.png');
+  width: 100%;
+  background-size: 31%;
+}
+
+.paragraph {
+  margin-left: 39px; 
+  font-size: 27px;
+  margin-top: 0;
+  margin-bottom: 0; 
+}
+
+.green-checkerboard {
+  width: 36%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.description-paragraph {
+  width: 90%;
+  text-align: left;
+  margin: 5%;
+  display: flex;
+}
+.details-profile {
+  display: flex;
+  margin: 2%
+}
+
+.details-portrait {
+  margin: 5px;
+}
+
+.details-paragraph {
+  margin: 0;
+}
+
+#the-events {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+.event-details {
+  border: 1px solid green;
+  margin: 5px;
+  /* display: flex; */
+}
