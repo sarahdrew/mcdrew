@@ -1,0 +1,283 @@
+body {
+  font-size: 25px;
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "Fira Sans", sans-serif; */
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+.nav-list {
+  position: fixed;
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  top: 0;
+  width: 100%;
+  list-style: none;
+  padding-left: 20%;
+}
+
+.nav-list a,
+.nav-list a:visited {
+  display: flex;
+  float: left;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 2%;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+header {
+  margin-top: 5%;
+  background-size: 31%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.countdown-container {
+  width: 50%;
+  display: inline-block;
+  margin-left: 25%;
+  margin-bottom: 60px;
+  border-radius: 4px;
+  background: #448b66;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+.centered-logo {
+  width: 25%;
+  margin-left: 36%;
+}
+
+#the-mcdrew {
+  background-size: 14%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+a:visited {
+  color: white;
+}
+
+.header-photo {
+  background-image: url("./assets/checker-background.png");
+  width: 100%;
+  background-size: 31%;
+}
+
+.paragraph {
+  margin-left: 39px;
+  font-size: 27px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.details-paragraph a,
+a:visited,
+.socials a,
+.socials a:visited,
+.email a,
+.email a:visited {
+  color: #076381;
+  text-decoration: none;
+}
+
+.details-paragraph a:hover,
+.socials a:hover {
+  color: #b64b26;
+  text-decoration: underline;
+}
+
+.email a:hover {
+  color: #b64b26;
+  text-decoration: underline;
+}
+
+.green-checkerboard {
+  width: 16%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.mcdrew-description-wrapper {
+  width: 90%;
+  margin-left: 10px;
+}
+
+.how-it-started {
+  display: flex;
+  margin-bottom: 60px;
+  background-color: #f7f7f7;
+  margin-top: -16px;
+  padding: 24px 0px;
+  padding-right: 39px;
+  margin-bottom: 56px;
+  border-radius: 8px;
+}
+
+.started-paragraph {
+  margin-left: 39px;
+  font-size: 27px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-top: 5%;
+}
+
+#started-mcdrew {
+  width: 33%;
+  height: auto;
+  border-radius: 8px !important;
+  margin-left: 10px;
+}
+
+.description-paragraph {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 10px;
+}
+.details-profile {
+  display: flex;
+  margin: 2%;
+}
+
+.details-portrait {
+  margin: 5px;
+}
+
+.details-paragraph {
+  margin: 0;
+  padding-left: 8px;
+  border-left: 5px solid #448b66;
+}
+
+#the-events {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 10px;
+}
+.event-details {
+  margin: 5px;
+  /* display: flex; */
+}
+
+.bags-info,
+.tennis-info {
+  border: 2px solid #076381;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.register-button {
+  padding: 10px 20px;
+  border-radius: 16px;
+  margin-left: 15px;
+  color: white;
+  background: #076381;
+}
+
+#johnAndKevin {
+  width: 33%;
+  height: 33%;
+}
+
+.gallery-wrapper {
+  margin-left: 10%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#email-link,
+#email-link:visited {
+  color: #076381;
+  text-decoration: none;
+}
+
+#email-link:hover {
+  color: #b64b26;
+  text-decoration: underline;
+}
+
+.email,
+.socials,
+.other-links,
+.contact-sponsor {
+  margin: 20px;
+}
+
+.sponsors-wrapper {
+  display: flex;
+  margin-left: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1224px;
+}
+
+.sponsor {
+  border: 5px solid #448b66;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
