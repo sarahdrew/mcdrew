@@ -5,6 +5,7 @@ import vintageMcDrew from "./assets/photo-gallery/vintageMcDrew.jpg";
 import johnPortrait from "./assets/jdrew.png";
 import kevinPortrait from "./assets/kmcdermott.png";
 import johnAndKevin from "./assets/johnandkevin.jpg";
+import group7 from "./assets/photo-gallery/group7.png";
 import blueCheckerboard from "./assets/blue-checkerboard.jpg";
 import redCheckerboard from "./assets/red-checkerboard.jpg";
 import CountDownTimer from "./CountdownTimer";
@@ -18,23 +19,72 @@ export default class TheMcDrew extends Component {
           <CountDownTimer />
 
           <div className="mcdrew-description-wrapper">
+            <img
+              className="started-mcdrew"
+              src={vintageMcDrew}
+              alt="vintage mcdrew"
+            />
+            <img className="started-mcdrew" src={group7} alt="vintage mcdrew" />
+            <img
+              className="started-mcdrew"
+              src={johnAndKevin}
+              alt="vintage mcdrew"
+            />
             <div className="how-it-started">
               <p className="started-paragraph">
                 <span style={{ color: "#448b66", fontWeight: "900" }}>
                   How it all started...{" "}
                 </span>
-                The McDrew Tennis, Bags and Jazz Festival began with an idea
-                that rattled the idealism of progressive reality and opened the
-                minds to peace and joy in 1974. It defined and opened a new era
-                of celebration and tranquility that revolutionized how tennis
-                and bags came together with the sweet slumber of jazz. The
-                legend lives on...
+                <p>
+                  Kevin and John organized their initial tennis event in the 1st
+                  grade at Blessed Sacrament School. In the Spring of 1962,
+                  along with Tom Jennings and David Humphreville, they put
+                  together a grade school doubles tennis team and scheduled
+                  matches with Little Flower and St. Al’s. It was Easter Weekend
+                  in 1962 when BS met St. Al’s at the Lincoln Park Tennis Court.
+                  St. Al’s had a rag tag team with Mike Aiello and John Kulek as
+                  their number one doubles team (and only team). McDrew stepped
+                  aside in that match and allowed the Jennings/Humphreville team
+                  to make short work of Aiello/Kulek. The next month, on
+                  Mother’s Day, Jennings/Humphreville were dispatched to take on
+                  the Little Flower team of Tim Norris and Greg O’Brien. The
+                  Norris/O’Brien team insisted on playing the match on a
+                  temporary court constructed on Circle Drive. Didn’t matter.
+                  Jennings/Humphreville crushed them. This was the first of many
+                  encounters St. Al’s and Little Flower (“Big Weed”) dudes had
+                  with the BSS guys and the outcome was always the same. Tennis,
+                  basketball, baseball, it did not matter.
+                </p>
+                <p>
+                  Fast forward to the Summer of 1971 and 1972. Kevin and John
+                  were working at Oak Ridge Cemetery and had a tendency to get
+                  sent home by the foreman for unsubstantiated allegations of
+                  misbehavior. Neither could actually “go home” so they went
+                  from Oak Ridge to the Lincoln Park Tennis Courts to work on
+                  their games for the remainder of the shortened work day. With
+                  sharpened tennis skills, they were ready to take the next step
+                  and try out for the initial Griffin High School Tennis team in
+                  the Spring of 1974. As things turned out, this was the birth
+                  of the McDrew.
+                </p>
+
+                <p>
+                  Details are sketchy at this point but there is no doubt that
+                  John Sankey and Dan Kepner had a pivotal role in the creation
+                  of the McDrew. At tryouts for the Griffin Team in April of
+                  1974, one shut out Kevin and one shut out Dog. Both Kevin and
+                  John appealed their cause with Coach VanDiver but were told to
+                  pack up and get out, you guys are done. Well, they were not.
+                </p>
+                <p>
+                  In the early summer of 1974 before John left Springfield for
+                  West Point and Kevin for Champaign, the first McDrew was held
+                  at Lincoln Greens Tennis Center on Lake Springfield. There
+                  were about ten teams entered and no one touched McDrew. The
+                  McDrew was born and continues to this day. It has been a
+                  wonderful ride.
+                </p>
               </p>
-              <img
-                id="started-mcdrew"
-                src={vintageMcDrew}
-                alt="vintage mcdrew"
-              />
             </div>
             <div className="details-profile">
               <div className="details-portrait">
@@ -89,7 +139,10 @@ export default class TheMcDrew extends Component {
                 the Fighting Illini, St. Louis Cardinals, and the Y. Kevin
                 resides in Springfield with his dog, Doc, and can be contacted
                 at Kevin@KevinNMcDermott.com or{" "}
-                <a href="www.KevinNMcDermott.com">www.KevinNMcDermott.com</a>.
+                <a href="www.KevinNMcDermott.com" target="_blank">
+                  www.KevinNMcDermott.com
+                </a>
+                .
               </p>
             </div>
           </div>

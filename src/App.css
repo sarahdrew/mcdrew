@@ -5,6 +5,14 @@ body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.4;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  margin-left: 25px;
+  margin-right: 25px;
+}
 
 .nav-list {
   position: fixed;
@@ -74,6 +82,11 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  text-align: center;
+  color: #b64b26;
+}
+
 a:visited {
   color: white;
 }
@@ -96,13 +109,19 @@ a:visited,
 .socials a,
 .socials a:visited,
 .email a,
-.email a:visited {
+.email a:visited,
+#cornhole-link,
+#dangeroux-link,
+#yachtclub-link {
   color: #076381;
   text-decoration: none;
 }
 
 .details-paragraph a:hover,
-.socials a:hover {
+.socials a:hover,
+#cornhole-link:hover,
+#yachtclub-link:hover,
+#dangeroux-link:hover {
   color: #b64b26;
   text-decoration: underline;
 }
@@ -122,12 +141,14 @@ a:visited,
   width: 90%;
   margin-left: 10px;
 }
-
+.mcdrew-description-wrapper {
+  margin-left: 2%;
+}
 .how-it-started {
   display: flex;
   margin-bottom: 60px;
   background-color: #f7f7f7;
-  margin-top: -16px;
+  margin-top: -3%;
   padding: 24px 0px;
   padding-right: 39px;
   margin-bottom: 56px;
@@ -143,8 +164,8 @@ a:visited,
   padding-top: 5%;
 }
 
-#started-mcdrew {
-  width: 33%;
+.started-mcdrew {
+  width: 32%;
   height: auto;
   border-radius: 8px !important;
   margin-left: 10px;
@@ -194,17 +215,63 @@ a:visited,
   margin-top: 10px;
 }
 
+#swim-info,
+.tennis-ball-info {
+  border: 2px solid #448b66;
+  padding: 15px;
+  margin-top: 10px;
+}
+
 .register-button {
+  font-size: 25px;
   padding: 10px 20px;
   border-radius: 16px;
   margin-left: 15px;
   color: white;
   background: #076381;
+  text-decoration: none;
+}
+
+.register-button:hover {
+  background-color: #b64b26;
+}
+
+.more-cornhole {
+  display: block;
+}
+
+.no-cornhole {
+  display: none;
 }
 
 #johnAndKevin {
   width: 33%;
   height: 33%;
+}
+
+#dangeroux {
+  text-align: left;
+}
+
+.archives {
+  display: block;
+}
+
+.no-archives {
+  display: none;
+}
+
+.archives-button {
+  margin-bottom: 50px;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  color: white;
+  background: #076381;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 50%;
 }
 
 .gallery-wrapper {
@@ -264,6 +331,33 @@ a:visited,
   margin-right: 10px;
   margin-bottom: 10px;
   margin-left: 0;
+}
+
+.donations-list li {
+  list-style: none;
+}
+
+.donations-wrapper {
+  background-color: #f7f7f7;
+  margin-top: 16px;
+  padding: 24px 0px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+.donations-wrapper p {
+  margin-left: 15px;
+  margin-top: 2px;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 882px) {
+  .started-mcdrew {
+    width: 80%;
+    margin-left: 15%;
+    height: auto;
+    border-radius: 8px !important;
+    flex-flow: column;
+  }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

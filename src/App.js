@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import TheEvents from "./TheEvents";
 import McDrewGallery from "./mcDrewGallery";
 import Sponsors from "./Sponsors";
+import Donations from "./Donations";
 import Contact from "./Contact";
 import centeredLogo from "./assets/checker-background.jpg";
 
@@ -17,21 +18,21 @@ class App extends Component {
           <Nav />
         </nav>
         <Nav />
+        <div
+          className="header-photo"
+          style={{ backgroundImage: { centeredLogo } }}
+        >
+          <header className="App-header">
+            <h1>The 48th Annual McDrew Festival</h1>
+            <h3>Tennis Bags Swimming Jazz</h3>
+          </header>
+        </div>
         <div className="App">
-          <div
-            className="header-photo"
-            style={{ backgroundImage: { centeredLogo } }}
-          >
-            <header className="App-header">
-              <h1>The 48th Annual McDrew Festival</h1>
-              <h3>Tennis Bags Swimming Jazz</h3>
-            </header>
-          </div>
           <Switch>
             <Route exact path="/">
               <TheMcDrew />
             </Route>
-            <Route exact path="#the-events">
+            <Route exact path="/#the-events">
               <TheEvents />
             </Route>
             <Route exact path="/mcdrewgallery">
@@ -39,6 +40,9 @@ class App extends Component {
             </Route>
             <Route exact path="/sponsors">
               <Sponsors />
+            </Route>
+            <Route exact path="/donations">
+              <Donations />
             </Route>
             <Route exact path="/contact">
               <Contact />

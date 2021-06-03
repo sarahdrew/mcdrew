@@ -1,7 +1,7 @@
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import { Carousel } from "react-responsive-carousel";
 
-import React from "react";
+import { React, useState } from "react";
 import abeLincoln from "./assets/photo-gallery/abeLincoln.jpg";
 import Aiello from "./assets/photo-gallery/Aiello.jpg";
 import bbqPeople from "./assets/photo-gallery/bbqPeople.jpg";
@@ -38,6 +38,11 @@ import timLeslieJohn from "./assets/photo-gallery/timLeslieJohn.jpg";
 import vintageMcDrew from "./assets/photo-gallery/vintageMcDrew.jpg";
 
 function McDrewGallery() {
+  const [show, setShow] = useState(false);
+  const showArchives = (e) => {
+    setShow(!show);
+  };
+
   return (
     <>
       <p style={{ textAlign: "center" }}>
@@ -50,6 +55,7 @@ function McDrewGallery() {
           send an email!
         </a>
       </p>
+
       <div className="gallery-wrapper">
         <div className="row">
           <div className="column">
@@ -96,6 +102,25 @@ function McDrewGallery() {
             <img src={smilingpair3} alt="Smiling at the McDrew" />
             <img src={group7} alt="a group at the McDrew" />
             <img src={group6} alt="group enjoying the McDrew" />
+          </div>
+        </div>
+      </div>
+      <button className="archives-button" onClick={showArchives}>
+        Show me the archives
+      </button>
+      <div className={show ? "archives" : "no-archives"}>
+        <div className="archives-wrapper">
+          <div className="row">
+            <div className="column">
+              <img src={group1} alt="group of people" />
+            </div>
+            <div className="column">
+              <img src={humphreyvilles} alt="The Humphreyvilles" />
+            </div>
+
+            <div className="column">
+              <img src={flyer2008} alt="McDrew flyer from 2008" />
+            </div>
           </div>
         </div>
       </div>

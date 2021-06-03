@@ -25,7 +25,7 @@ export default class Sponsors extends Component {
             <img src={Sponsor1} alt="Troxell" />
             <p>
               {" "}
-              <a href="https://www.troxellins.com/">
+              <a href="https://www.troxellins.com/" target="_blank">
                 R.W. Troxell & Company
               </a>{" "}
             </p>
@@ -34,14 +34,18 @@ export default class Sponsors extends Component {
             <img src={Sponsor2} alt="Grand Salon and Spa" />
             <p>
               {" "}
-              <a href="https://bjgrandsalon.com/">Grand Salon & Spa</a>{" "}
+              <a href="https://bjgrandsalon.com/" target="_blank">
+                Grand Salon & Spa
+              </a>{" "}
             </p>
           </div>
           <div className="sponsor" id="usca">
             <img src={Sponsor3} alt="USCA" />
             <p>
               {" "}
-              <a href="https://uscart.com/index.html">USCA</a>{" "}
+              <a href="https://uscart.com/index.html" target="_blank">
+                USCA
+              </a>{" "}
             </p>
           </div>
           <div className="sponsor" id="james-mcdermott">
@@ -52,13 +56,18 @@ export default class Sponsors extends Component {
             <img src={Sponsor5} alt="Do Hair Care" />
             <p>
               {" "}
-              <a href="https://doactiveproducts.com/">Do Hair Care</a>{" "}
+              <a href="https://doactiveproducts.com/" target="_blank">
+                Do Hair Care
+              </a>{" "}
             </p>
           </div>
         </div>
         <p>
           If you would like to become a sponsor,{" "}
-          <a href="mailto:sarahdrew93@gmail.com?subject=Sponsor McDrew 2021">
+          <a
+            href="mailto:sarahdrew93@gmail.com?subject=Sponsor McDrew 2021"
+            target="_blank"
+          >
             send us an email
           </a>{" "}
         </p>

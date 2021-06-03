@@ -17,11 +17,16 @@ export default class Contact extends Component {
         </h3>
         <div className="socials">
           You can{" "}
-          <a href="https://www.facebook.com/themcdrew">Facebook McDrew</a>
+          <a href="https://www.facebook.com/themcdrew" target="_blank">
+            Facebook McDrew
+          </a>
         </div>
         <div className="email">
           Or you can{" "}
-          <a href="mailto:sarahdrew93@gmail.com?subject=McDrew 2021">
+          <a
+            href="mailto:sarahdrew93@gmail.com?subject=McDrew 2021"
+            target="_blank"
+          >
             Email McDrew
           </a>
         </div>
@@ -33,12 +38,18 @@ export default class Contact extends Component {
         </div>
         <div className="other-links">
           <p>
-            <a href="https://www2.illinois.gov/statefair/Pages/default.aspx">
+            <a
+              href="https://www2.illinois.gov/statefair/Pages/default.aspx"
+              target="_blank"
+            >
               Illinois State Fair
             </a>
           </p>
           <p>
-            <a href="https://www.youtube.com/watch?v=hbP6fNqATJ8">
+            <a
+              href="https://www.youtube.com/watch?v=hbP6fNqATJ8"
+              target="_blank"
+            >
               {" "}
               McDrew 2014 Video{" "}
             </a>
