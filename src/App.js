@@ -24,7 +24,7 @@ class App extends Component {
         >
           <header className="App-header">
             <h1>The 48th Annual McDrew Festival</h1>
-            <h3>Tennis Bags Swimming Jazz</h3>
+            <h2>Tennis Bags Swimming Jazz</h2>
           </header>
         </div>
         <div className="App">

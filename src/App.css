@@ -9,6 +9,36 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+h2,
+h3,
+h5 {
+  text-align: center;
+}
+
+h3 {
+  color: #448b66;
+  font-weight: 700;
+  text-align: "center";
+  font-size: 40px;
+}
+
+h4 {
+  text-align: center;
+  color: #b64b26;
+}
+
+h5 {
+  color: #076381;
+}
+
+a:visited {
+  color: white;
+}
+
 .App {
   margin-left: 25px;
   margin-right: 25px;
@@ -53,7 +83,8 @@ header {
   width: 50%;
   display: inline-block;
   margin-left: 25%;
-  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: 40px;
   border-radius: 4px;
   background: #448b66;
   padding-left: 10px;
@@ -69,26 +100,6 @@ header {
 
 #the-mcdrew {
   background-size: 14%;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 0;
-}
-h2 {
-  text-align: center;
-}
-h3 {
-  text-align: center;
-}
-
-h4 {
-  text-align: center;
-  color: #b64b26;
-}
-
-a:visited {
-  color: white;
 }
 
 .header-photo {
@@ -298,20 +309,22 @@ a:visited,
 }
 
 #email-link,
-#email-link:visited {
+#email-link:visited,
+.contact-sponsor,
+.contact-sponsor :visited {
   color: #076381;
   text-decoration: none;
 }
 
-#email-link:hover {
+#email-link:hover,
+.contact-sponsor:hover {
   color: #b64b26;
   text-decoration: underline;
 }
 
 .email,
 .socials,
-.other-links,
-.contact-sponsor {
+.other-links {
   margin: 20px;
 }
 
@@ -320,7 +333,8 @@ a:visited,
   margin-left: 15px;
   flex-wrap: wrap;
   align-items: center;
-  max-width: 1224px;
+  /* max-width: 1224px; */
+  justify-content: center;
 }
 
 .sponsor {

@@ -7,7 +7,7 @@ export default class Nav extends Component {
       <div className="nav-list">
         <Link to="/">The McDrew</Link>
         <Link to="/sponsors">Sponsors</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/donations">Donations</Link>
         <Link to="/mcdrewgallery">Gallery</Link>
         <Link to="/contact">Contact</Link>
       </div>

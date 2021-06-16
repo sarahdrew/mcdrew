@@ -3,6 +3,7 @@ import React from "react";
 function Donations() {
   return (
     <>
+      <h3>DONATIONS</h3>
       <div className="donations-wrapper">
         <p>
           Over the past several years the McDrew community has opened their
@@ -11,7 +12,7 @@ function Donations() {
           families who volunteer at these organizations and appreciate the
           innovative efforts of the management teams of these organizations who
           are devoted to serving our community. To date , together, we have
-          provided approximately $500,000.00 in financial support to the
+          provided <b>approximately $500,000.00 in financial support</b> to the
           following organizations:
         </p>
         <div className="donations-list">

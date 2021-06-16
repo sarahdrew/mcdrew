@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 export default function CountDownTimer() {
   const calculateTimeLeft = () => {
-    let year = 2021
+    let year = 2021;
     let difference = +new Date(`08/14/${year}`) - +new Date();
     let timeLeft = {};
 
@@ -11,13 +11,12 @@ export default function CountDownTimer() {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
         hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
         minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60)
+        seconds: Math.floor((difference / 1000) % 60),
       };
     }
 
     return timeLeft;
-
-  }
+  };
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -42,8 +41,8 @@ export default function CountDownTimer() {
 
   return (
     <div className="countdown-container">
-      <h3>McDrew 2021 Countdown</h3>
+      <h2>McDrew 2021 Countdown</h2>
       {timerComponents.length ? timerComponents : <span>Time's up!</span>}
     </div>
-  )
+  );
 }

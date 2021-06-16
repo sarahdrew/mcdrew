@@ -25,7 +25,11 @@ export default class Sponsors extends Component {
             <img src={Sponsor1} alt="Troxell" />
             <p>
               {" "}
-              <a href="https://www.troxellins.com/" target="_blank">
+              <a
+                href="https://www.troxellins.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 R.W. Troxell & Company
               </a>{" "}
             </p>
@@ -34,7 +38,11 @@ export default class Sponsors extends Component {
             <img src={Sponsor2} alt="Grand Salon and Spa" />
             <p>
               {" "}
-              <a href="https://bjgrandsalon.com/" target="_blank">
+              <a
+                href="https://bjgrandsalon.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Grand Salon & Spa
               </a>{" "}
             </p>
@@ -43,7 +51,11 @@ export default class Sponsors extends Component {
             <img src={Sponsor3} alt="USCA" />
             <p>
               {" "}
-              <a href="https://uscart.com/index.html" target="_blank">
+              <a
+                href="https://uscart.com/index.html"
+                target="_blank"
+                rel="noreferrer"
+              >
                 USCA
               </a>{" "}
             </p>
@@ -56,7 +68,11 @@ export default class Sponsors extends Component {
             <img src={Sponsor5} alt="Do Hair Care" />
             <p>
               {" "}
-              <a href="https://doactiveproducts.com/" target="_blank">
+              <a
+                href="https://doactiveproducts.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Do Hair Care
               </a>{" "}
             </p>
@@ -65,8 +81,9 @@ export default class Sponsors extends Component {
         <p>
           If you would like to become a sponsor,{" "}
           <a
-            href="mailto:sarahdrew93@gmail.com?subject=Sponsor McDrew 2021"
+            href="mailto:kevin@kevinnmcdermott.com?subject=Sponsor McDrew 2021"
             target="_blank"
+            rel="noreferrer"
           >
             send us an email
           </a>{" "}

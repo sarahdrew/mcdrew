@@ -36,6 +36,18 @@ import tennisplayer from "./assets/photo-gallery/tennisplayer.png";
 import tennisWinners from "./assets/photo-gallery/tennisWinners.jpg";
 import timLeslieJohn from "./assets/photo-gallery/timLeslieJohn.jpg";
 import vintageMcDrew from "./assets/photo-gallery/vintageMcDrew.jpg";
+import chair39 from "./assets/photo-gallery/chair39.png";
+import corn2012 from "./assets/photo-gallery/corn2012.png";
+import goldengate from "./assets/photo-gallery/goldengate.png";
+import halfdomemcdrew from "./assets/photo-gallery/halfdomemcdrew.png";
+import mcdrew25 from "./assets/photo-gallery/mcdrew25.png";
+import mcdrew34 from "./assets/photo-gallery/mcdrew34.png";
+import mcdrew40 from "./assets/photo-gallery/mcdrew40.png";
+import mcdrew2013 from "./assets/photo-gallery/mcdrew2013.png";
+import sailboatmcdrew from "./assets/photo-gallery/sailboatmcdrew.png";
+import swim2013 from "./assets/photo-gallery/swim2013.png";
+import swimmcdrew from "./assets/photo-gallery/swimmcdrew.png";
+import turtlemcdrew from "./assets/photo-gallery/turtlemcdrew.png";
 
 function McDrewGallery() {
   const [show, setShow] = useState(false);
@@ -45,12 +57,13 @@ function McDrewGallery() {
 
   return (
     <>
+      <h3>GALLERY</h3>
       <p style={{ textAlign: "center" }}>
         Photos of McDrews past. If you have any photos you'd like to add to our
         gallery,{" "}
         <a
           id="email-link"
-          href="mailto:sarahdrew93@gmail.com?subject=McDrew Photo Gallery"
+          href="mailto:kevin@kevinnmcdermott.com?subject=McDrew Photo Gallery"
         >
           send an email!
         </a>
@@ -104,22 +117,34 @@ function McDrewGallery() {
             <img src={group6} alt="group enjoying the McDrew" />
           </div>
         </div>
-      </div>
-      <button className="archives-button" onClick={showArchives}>
-        Show me the archives
-      </button>
-      <div className={show ? "archives" : "no-archives"}>
-        <div className="archives-wrapper">
-          <div className="row">
-            <div className="column">
-              <img src={group1} alt="group of people" />
-            </div>
-            <div className="column">
-              <img src={humphreyvilles} alt="The Humphreyvilles" />
-            </div>
 
-            <div className="column">
-              <img src={flyer2008} alt="McDrew flyer from 2008" />
+        <p>From the archives: </p>
+        <div className="archives">
+          <div className="archives-wrapper">
+            <div className="row">
+              <div className="column">
+                <img src={chair39} alt="group of people" />
+                <img src={corn2012} alt="2012 poster" />
+                <img src={mcdrew25} alt="McDrew 25 poster" />
+                <img src={sailboatmcdrew} alt="McDrew poster with a sailboat" />
+              </div>
+              <div className="column">
+                <img src={halfdomemcdrew} alt="McDrew poster from 2010" />
+                <img src={mcdrew34} alt="McDrew 34 poster" />
+                <img src={mcdrew40} alt="McDrew 40 poster" />
+                <img src={swim2013} alt="McDrew poster from 2013" />
+                <img src={turtlemcdrew} alt="Turtle McDrew poster" />
+              </div>
+
+              <div className="column">
+                <img src={flyer2008} alt="McDrew flyer from 2008" />
+                <img
+                  src={goldengate}
+                  alt="Golden Gate Bridge on McDrew poster"
+                />
+                <img src={mcdrew2013} alt="McDrew 2013 poster" />
+                <img src={swimmcdrew} alt="McDrew Swim Poster" />
+              </div>
             </div>
           </div>
         </div>

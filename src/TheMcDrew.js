@@ -15,8 +15,72 @@ export default class TheMcDrew extends Component {
     return (
       <>
         <div id="details">
-          <h2>The McDrew Details</h2>
           <CountDownTimer />
+          <TheEvents />
+          <div className="description-paragraph">
+            <img
+              className="green-checkerboard"
+              src={blueCheckerboard}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={redCheckerboard}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={checkerboardGreen}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={blueCheckerboard}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={redCheckerboard}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={checkerboardGreen}
+              alt="McDrew Logo"
+            />
+          </div>
+          <div className="description-paragraph">
+            <img
+              className="green-checkerboard"
+              src={checkerboardGreen}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={blueCheckerboard}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={redCheckerboard}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={checkerboardGreen}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={blueCheckerboard}
+              alt="McDrew Logo"
+            />
+            <img
+              className="green-checkerboard"
+              src={redCheckerboard}
+              alt="McDrew Logo"
+            />
+          </div>
 
           <div className="mcdrew-description-wrapper">
             <img
@@ -139,7 +203,11 @@ export default class TheMcDrew extends Component {
                 the Fighting Illini, St. Louis Cardinals, and the Y. Kevin
                 resides in Springfield with his dog, Doc, and can be contacted
                 at Kevin@KevinNMcDermott.com or{" "}
-                <a href="www.KevinNMcDermott.com" target="_blank">
+                <a
+                  href="www.KevinNMcDermott.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   www.KevinNMcDermott.com
                 </a>
                 .
@@ -147,71 +215,6 @@ export default class TheMcDrew extends Component {
             </div>
           </div>
         </div>
-        <div className="description-paragraph">
-          <img
-            className="green-checkerboard"
-            src={blueCheckerboard}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={redCheckerboard}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={checkerboardGreen}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={blueCheckerboard}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={redCheckerboard}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={checkerboardGreen}
-            alt="McDrew Logo"
-          />
-        </div>
-        <div className="description-paragraph">
-          <img
-            className="green-checkerboard"
-            src={checkerboardGreen}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={blueCheckerboard}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={redCheckerboard}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={checkerboardGreen}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={blueCheckerboard}
-            alt="McDrew Logo"
-          />
-          <img
-            className="green-checkerboard"
-            src={redCheckerboard}
-            alt="McDrew Logo"
-          />
-        </div>
-        <TheEvents />
       </>
     );
   }
