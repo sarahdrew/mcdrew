@@ -50,11 +50,6 @@ import swimmcdrew from "./assets/photo-gallery/swimmcdrew.png";
 import turtlemcdrew from "./assets/photo-gallery/turtlemcdrew.png";
 
 function McDrewGallery() {
-  const [show, setShow] = useState(false);
-  const showArchives = (e) => {
-    setShow(!show);
-  };
-
   return (
     <>
       <h3>GALLERY</h3>
