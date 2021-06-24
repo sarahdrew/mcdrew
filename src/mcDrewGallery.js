@@ -1,7 +1,7 @@
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import { Carousel } from "react-responsive-carousel";
 
-import { React, useState } from "react";
+import { React } from "react";
 import abeLincoln from "./assets/photo-gallery/abeLincoln.jpg";
 import Aiello from "./assets/photo-gallery/Aiello.jpg";
 import bbqPeople from "./assets/photo-gallery/bbqPeople.jpg";
