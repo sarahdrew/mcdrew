@@ -7,184 +7,175 @@ function TheEvents() {
   };
 
   return (
-    <div id="the-events">
-      <h3>The McDrew Events</h3>
-      <h5>
-        The McDrew is back in person and we are looking forward to seeing you
-        all.
-      </h5>
-      <p>
-        Registration for bags and swimming will be available on location at time
-        of the event. Scroll below for Doubles Tennis registration or text us at
-        217-416-0460
-      </p>
-      <div className="event-details">
-        <h4>
-          <p>AUGUST 13, 2021</p>
-          <p>THE MCDREW TOURNAMENT: TENNIS BAGS JAZZ</p>
-          <p>Washington Park at the Velasco Tennis Center</p>
-          <p>Music by Kevin Hart & The Vibe Tribe</p>{" "}
-        </h4>
-        <div className="bags-info">
-          <span style={{ color: "#076381", fontWeight: "900" }}>
-            <p> AUGUST 13, 2021</p>
-            <p>THOMAS E JENNINGS BAGS</p>
-          </span>
-          <p>
-            <span style={{ color: "#076381", fontWeight: "900" }}>TIME:</span>{" "}
-            4:00PM
-          </p>
-          <p>
-            <span style={{ color: "#076381", fontWeight: "900" }}>FEE: </span>
-            Donations Welcomed
-          </p>
-          <p>
+    <div className="container">
+      <div id="the-events">
+        <h3>The McDrew Events</h3>
+        <h5>
+          The McDrew is back in person and we are looking forward to seeing you
+          all.
+        </h5>
+        <p>
+          Registration for bags and swimming will be available on location at
+          time of the event. Scroll below for Doubles Tennis registration or
+          text us at 217-416-0460
+        </p>
+        <div className="event-details">
+          <h4>
+            <p>AUGUST 13, 2021</p>
+            <p>THE MCDREW TOURNAMENT: TENNIS BAGS JAZZ</p>
+            <p>Washington Park at the Velasco Tennis Center</p>
+            <p>Music by Kevin Hart & The Vibe Tribe</p>{" "}
+          </h4>
+          <div className="bags-info">
             <span style={{ color: "#076381", fontWeight: "900" }}>
-              DIRECTIONS:{" "}
+              <p> AUGUST 13, 2021</p>
+              <p>THOMAS E JENNINGS BAGS</p>
             </span>
+            <p>
+              <span style={{ color: "#076381", fontWeight: "900" }}>TIME:</span>{" "}
+              4:00PM
+            </p>
+            <p>
+              <span style={{ color: "#076381", fontWeight: "900" }}>FEE: </span>
+              Donations Welcomed
+            </p>
+            <p>
+              <span style={{ color: "#076381", fontWeight: "900" }}>
+                ADDRESS:{" "}
+              </span>
+              Velasco Tennis Center, 1501 S Grand Ave W, Springfield, IL 62704
+            </p>
+            <p>
+              <span style={{ color: "#076381", fontWeight: "900" }}>NOTE:</span>{" "}
+              No cheating allowed. Scoring errors will be noted. Cornhole
+              instructions are below...
+            </p>
+
+            <button className="register-button" onClick={showCornhole}>
+              Expand for Cornhole instructions
+            </button>
+            <div className={show ? "more-cornhole" : "no-cornhole"}>
+              <p>
+                <a
+                  id="cornhole-link"
+                  href="https://www.playcornhole.org/pages/rules"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  The Official ACA Cornhole Rules
+                </a>
+              </p>
+              <p>
+                WHAT IS CORNHOLE OR BAGS? It has been called many things, Corn
+                Toss, Bean Bag, Bean Toss, Soft Horseshoes, Indiana Horseshoes,
+                but to many of us born and raised in Kentucky and the southern
+                part of Ohio, the game is passionately referred to as Cornhole.
+                The truth is, who really knows, but the game is great fun for
+                all ages and can be played anywhere! Scoring can be swift and
+                the lead may change hands several times in a match before the
+                winner is decided. The game is generally played tournament style
+                with an individual or team being named the champion at the end
+                of the tournament.
+              </p>
+            </div>
+          </div>
+          <div className="tennis-info">
+            <span style={{ color: "#076381", fontWeight: "900" }}>
+              <p> AUGUST 13, 2021</p>
+              <p>DOUBLES TENNIS</p>
+            </span>
+            <p>
+              <span style={{ color: "#076381", fontWeight: "700" }}>FEE: </span>
+              Donations Welcomed.
+            </p>
+            <p>
+              <span style={{ color: "#076381", fontWeight: "700" }}>
+                ADDRESS:
+              </span>{" "}
+              Velasco Tennis Center, 1501 S Grand Ave W, Springfield, IL 62704
+            </p>
+            <p>
+              <span style={{ color: "#076381", fontWeight: "700" }}>
+                {" "}
+                NOTE:{" "}
+              </span>{" "}
+              Players of all abilities and ages are welcomed and encouraged to
+              sign up. McDrew memories are priceless.
+            </p>
             <a
-              href="https://www.google.com/maps/dir/28.5343744,-81.3367296/Velasco+Tennis+Center,+South+Grand+Avenue+West,+Springfield,+IL/@34.2682828,-90.0628689,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8875384369785811:0xd1f164ad3b26c4c1!2m2!1d-89.6774053!2d39.788767"
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:kevin@kevinnmcdermott.com?subject=Doubles%20Tennis%20Sign%20Up&body=Hello%2C%20%0D%0AWe%20would%20like%20to%20sign%20up%20for%20Doubles%20Tennis%20at%20the%20McDrew%202021.%0D%0AName%20of%20Player%201%3A%0D%0AName%20of%20Player%202%3A%0D%0A%0D%0AThanks!"
+              className="register-button"
             >
-              Click for Directions
+              register for tennis{" "}
             </a>
+          </div>
+        </div>
+        <h4>
+          <p>AUGUST 14, 2021</p>
+        </h4>
+        <div className="event-details" id="swim-info">
+          <span
+            style={{
+              color: "#448b66",
+              fontWeight: "900",
+            }}
+          >
+            <p>AUGUST 14, 2021</p>
+            <p>SWIM MCDREW</p>
+          </span>
+          <p>Start Time: 8:15AM</p>
+          <p>Illini Country Club Pool</p>
+          <p>
+            <span style={{ color: "#448b66", fontWeight: "700" }}>FEE: </span>
+            Donations welcomed.
           </p>
           <p>
-            <span style={{ color: "#076381", fontWeight: "900" }}>NOTE:</span>{" "}
-            No cheating allowed. Scoring errors will be noted. Cornhole
-            instructions are below...
+            <span style={{ color: "#448b66", fontWeight: "700" }}>
+              ADDRESS:
+            </span>
+            Illini Country Club, 1601 Illini Rd, Springfield, IL 62704
           </p>
-
-          <button className="register-button" onClick={showCornhole}>
-            Expand for Cornhole instructions
-          </button>
-          <div className={show ? "more-cornhole" : "no-cornhole"}>
-            <p>
+          <p>
+            <span style={{ color: "#448b66", fontWeight: "700" }}> NOTE: </span>{" "}
+            Swimmer decides on a per lap donation (pledges welcome), swim your
+            laps, have fun and make your donation. First time swimmers are
+            strongly encouraged to sign up. Music, food and drinks will be
+            served up poolside. Invite your swim buddies. Swim McDrew is the
+            only swim-a-thon sanctioned by The McDrew in North America.
+          </p>
+        </div>
+        <div className="event-details" id="tennis-ball-info">
+          <div className="tennis-ball-info">
+            <span style={{ color: "#448b66", fontWeight: "700" }}>
+              <p>THE TENNIS BALL</p>
+              <p>Island Bay Yacht Club</p>
+            </span>
+            <h4 id="dangeroux">
               <a
-                id="cornhole-link"
-                href="https://www.playcornhole.org/pages/rules"
+                id="dangeroux-link"
+                href="https://www.mikedangeroux.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                The Official ACA Cornhole Rules
+                Music by The Mike Dangeroux Orchestra from Chicago
               </a>
+            </h4>
+            <p>
+              Food, drinks, dancing, good views, and all of your favorite people
+              in Springfield Illinois.
             </p>
             <p>
-              WHAT IS CORNHOLE OR BAGS? It has been called many things, Corn
-              Toss, Bean Bag, Bean Toss, Soft Horseshoes, Indiana Horseshoes,
-              but to many of us born and raised in Kentucky and the southern
-              part of Ohio, the game is passionately referred to as Cornhole.
-              The truth is, who really knows, but the game is great fun for all
-              ages and can be played anywhere! Scoring can be swift and the lead
-              may change hands several times in a match before the winner is
-              decided. The game is generally played tournament style with an
-              individual or team being named the champion at the end of the
-              tournament.
+              <a
+                id="yachtclub-link"
+                href="https://www.ibyconline.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Island Bay Yacht Club
+              </a>
             </p>
+            <p> </p>
           </div>
-        </div>
-        <div className="tennis-info">
-          <span style={{ color: "#076381", fontWeight: "900" }}>
-            <p> AUGUST 13, 2021</p>
-            <p>DOUBLES TENNIS</p>
-          </span>
-          <p>
-            <span style={{ color: "#076381", fontWeight: "700" }}>FEE: </span>
-            Donations Welcomed.
-          </p>
-          <p>
-            <span style={{ color: "#076381", fontWeight: "700" }}>
-              DIRECTIONS:
-            </span>{" "}
-            <a
-              href="https://www.google.com/maps/dir/28.5343744,-81.3367296/Velasco+Tennis+Center,+South+Grand+Avenue+West,+Springfield,+IL/@34.2682828,-90.0628689,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x8875384369785811:0xd1f164ad3b26c4c1!2m2!1d-89.6774053!2d39.788767"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Click for Directions
-            </a>
-          </p>
-          <p>
-            <span style={{ color: "#076381", fontWeight: "700" }}> NOTE: </span>{" "}
-            Players of all abilities and ages are welcomed and encouraged to
-            sign up. McDrew memories are priceless.
-          </p>
-          <a
-            href="mailto:kevin@kevinnmcdermott.com?subject=Doubles%20Tennis%20Sign%20Up&body=Hello%2C%20%0D%0AWe%20would%20like%20to%20sign%20up%20for%20Doubles%20Tennis%20at%20the%20McDrew%202021.%0D%0AName%20of%20Player%201%3A%0D%0AName%20of%20Player%202%3A%0D%0A%0D%0AThanks!"
-            className="register-button"
-          >
-            register for tennis{" "}
-          </a>
-        </div>
-      </div>
-      <h4>
-        <p>AUGUST 14, 2021</p>
-      </h4>
-      <div className="event-details" id="swim-info">
-        <span
-          style={{
-            color: "#448b66",
-            fontWeight: "900",
-          }}
-        >
-          <p>AUGUST 14, 2021</p>
-          <p>SWIM MCDREW</p>
-        </span>
-        <p>Start Time: 8:15AM</p>
-        <p>Illini Country Club Pool</p>
-        <p>
-          <span style={{ color: "#448b66", fontWeight: "700" }}>FEE: </span>
-          Donations welcomed.
-        </p>
-        <p>
-          <span style={{ color: "#448b66", fontWeight: "700" }}>
-            DIRECTIONS:
-          </span>
-          <a href="https://www.google.com/maps/dir/28.5507584,-81.3531136/Illini+Country+Club+Pool/@34.259632,-90.0729066,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88753866450c3eed:0xd0141933a6f997af!2m2!1d-89.683285!2d39.783526">
-            Click for Directions
-          </a>
-        </p>
-        <p>
-          <span style={{ color: "#448b66", fontWeight: "700" }}> NOTE: </span>{" "}
-          Swimmer decides on a per lap donation (pledges welcome), swim your
-          laps, have fun and make your donation. First time swimmers are
-          strongly encouraged to sign up. Music, food and drinks will be served
-          up poolside. Invite your swim buddies. Swim McDrew is the only
-          swim-a-thon sanctioned by The McDrew in North America.
-        </p>
-      </div>
-      <div className="event-details" id="tennis-ball-info">
-        <div className="tennis-ball-info">
-          <span style={{ color: "#448b66", fontWeight: "700" }}>
-            <p>THE TENNIS BALL</p>
-            <p>Island Bay Yacht Club</p>
-          </span>
-          <h4 id="dangeroux">
-            <a
-              id="dangeroux-link"
-              href="https://www.mikedangeroux.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Music by The Mike Dangeroux Orchestra from Chicago
-            </a>
-          </h4>
-          <p>
-            Food, drinks, dancing, good views, and all of your favorite people
-            in Springfield Illinois.
-          </p>
-          <p>
-            <a
-              id="yachtclub-link"
-              href="https://www.ibyconline.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Island Bay Yacht Club
-            </a>
-          </p>
-          <p> </p>
         </div>
       </div>
     </div>

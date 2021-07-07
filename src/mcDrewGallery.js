@@ -52,93 +52,100 @@ import turtlemcdrew from "./assets/photo-gallery/turtlemcdrew.png";
 function McDrewGallery() {
   return (
     <>
-      <h3>GALLERY</h3>
-      <p style={{ textAlign: "center" }}>
-        Photos of McDrews past. If you have any photos you'd like to add to our
-        gallery,{" "}
-        <a
-          id="email-link"
-          href="mailto:kevin@kevinnmcdermott.com?subject=McDrew Photo Gallery"
-        >
-          send an email!
-        </a>
-      </p>
+      <div className="mcDrewGallery">
+        <div className="container">
+          <h3 id="mcDrewGallery">GALLERY</h3>
+          <p style={{ textAlign: "center" }}>
+            Photos of McDrews past. If you have any photos you'd like to add to
+            our gallery,{" "}
+            <a
+              id="email-link"
+              href="mailto:kevin@kevinnmcdermott.com?subject=McDrew Photo Gallery"
+            >
+              send an email!
+            </a>
+          </p>
 
-      <div className="gallery-wrapper">
-        <div className="row">
-          <div className="column">
-            <img src={group1} alt="group of people" />
-
-            <img src={tennisplayer} alt="playing tennis" />
-            <img src={mcdermotts} alt="McDermotts" />
-            <img src={bbqPeople} alt="Friends eating BBQ" />
-            <img src={cornholeWinners} alt="Cornhole Champs" />
-            <img src={winnersAndLosers} alt="Cornhole winners and losers" />
-            <img src={buddies} alt="Buddies enjoying the McDrew" />
-            <img src={friends} alt="Friends enjoying the McDrew" />
-            <img src={tennis} alt="a group enjoying the McDrew" />
-            <img src={tennisWinners} alt="McDrew Tennis Winners" />
-            <img src={group5} alt="Group enjoying the McDrew together" />
-          </div>
-          <div className="column">
-            <img src={humphreyvilles} alt="The Humphreyvilles" />
-            <img src={friendsWithJack} alt="Grou of Friends" />
-            <img src={johnAndFran} alt=" John and Fran" />
-            <img src={johnK} alt="John K" />
-            <img src={manAndDog} alt="Man and Dog" />
-            <img src={group2} alt="Group enjoying the McDrew" />
-            <img src={smilingpair} alt="Friends enjoying the McDrew" />
-            <img src={kevinCookieJohn} alt="Kevin Cookie and John" />
-            <img src={Aiello} alt="Aiello" />
-            <img src={timLeslieJohn} alt="Tim, Leslie, and John" />
-          </div>
-
-          <div className="column">
-            <img src={vintageMcDrew} alt="Vintage McDrew" />
-            <img src={abeLincoln} alt="Friends with Abe Lincoln" />
-            <img src={aiellos} alt="The Aiellos" />
-            <img
-              src={fatherdaughter}
-              alt="Father and daughter enjoying the McDrew"
-            />
-            <img src={flyer2008} alt="McDrew flyer from 2008" />
-            <img src={friends1} alt="Friends" />
-            <img src={group3} alt="Group and the McDrew" />
-            <img src={group4} alt="Group together at the McDrew" />
-            <img src={smilingpair2} alt="A Smiling Pair" />
-            <img src={kidsTennis} alt="Kids Tennis" />
-            <img src={smilingpair3} alt="Smiling at the McDrew" />
-            <img src={group7} alt="a group at the McDrew" />
-            <img src={group6} alt="group enjoying the McDrew" />
-          </div>
-        </div>
-
-        <p>From the archives: </p>
-        <div className="archives">
-          <div className="archives-wrapper">
+          <div className="gallery-wrapper">
             <div className="row">
               <div className="column">
-                <img src={chair39} alt="group of people" />
-                <img src={corn2012} alt="2012 poster" />
-                <img src={mcdrew25} alt="McDrew 25 poster" />
-                <img src={sailboatmcdrew} alt="McDrew poster with a sailboat" />
+                <img src={group1} alt="group of people" />
+
+                <img src={tennisplayer} alt="playing tennis" />
+                <img src={mcdermotts} alt="McDermotts" />
+                <img src={bbqPeople} alt="Friends eating BBQ" />
+                <img src={cornholeWinners} alt="Cornhole Champs" />
+                <img src={winnersAndLosers} alt="Cornhole winners and losers" />
+                <img src={buddies} alt="Buddies enjoying the McDrew" />
+                <img src={friends} alt="Friends enjoying the McDrew" />
+                <img src={tennis} alt="a group enjoying the McDrew" />
+                <img src={tennisWinners} alt="McDrew Tennis Winners" />
+                <img src={group5} alt="Group enjoying the McDrew together" />
               </div>
               <div className="column">
-                <img src={halfdomemcdrew} alt="McDrew poster from 2010" />
-                <img src={mcdrew34} alt="McDrew 34 poster" />
-                <img src={mcdrew40} alt="McDrew 40 poster" />
-                <img src={swim2013} alt="McDrew poster from 2013" />
-                <img src={turtlemcdrew} alt="Turtle McDrew poster" />
+                <img src={humphreyvilles} alt="The Humphreyvilles" />
+                <img src={friendsWithJack} alt="Grou of Friends" />
+                <img src={johnAndFran} alt=" John and Fran" />
+                <img src={johnK} alt="John K" />
+                <img src={manAndDog} alt="Man and Dog" />
+                <img src={group2} alt="Group enjoying the McDrew" />
+                <img src={smilingpair} alt="Friends enjoying the McDrew" />
+                <img src={kevinCookieJohn} alt="Kevin Cookie and John" />
+                <img src={Aiello} alt="Aiello" />
+                <img src={timLeslieJohn} alt="Tim, Leslie, and John" />
               </div>
 
               <div className="column">
-                <img src={flyer2008} alt="McDrew flyer from 2008" />
+                <img src={vintageMcDrew} alt="Vintage McDrew" />
+                <img src={abeLincoln} alt="Friends with Abe Lincoln" />
+                <img src={aiellos} alt="The Aiellos" />
                 <img
-                  src={goldengate}
-                  alt="Golden Gate Bridge on McDrew poster"
+                  src={fatherdaughter}
+                  alt="Father and daughter enjoying the McDrew"
                 />
-                <img src={mcdrew2013} alt="McDrew 2013 poster" />
-                <img src={swimmcdrew} alt="McDrew Swim Poster" />
+                <img src={flyer2008} alt="McDrew flyer from 2008" />
+                <img src={friends1} alt="Friends" />
+                <img src={group3} alt="Group and the McDrew" />
+                <img src={group4} alt="Group together at the McDrew" />
+                <img src={smilingpair2} alt="A Smiling Pair" />
+                <img src={kidsTennis} alt="Kids Tennis" />
+                <img src={smilingpair3} alt="Smiling at the McDrew" />
+                <img src={group7} alt="a group at the McDrew" />
+                <img src={group6} alt="group enjoying the McDrew" />
+              </div>
+            </div>
+
+            <p>From the archives: </p>
+            <div className="archives">
+              <div className="archives-wrapper">
+                <div className="row">
+                  <div className="column">
+                    <img src={chair39} alt="group of people" />
+                    <img src={corn2012} alt="2012 poster" />
+                    <img src={mcdrew25} alt="McDrew 25 poster" />
+                    <img
+                      src={sailboatmcdrew}
+                      alt="McDrew poster with a sailboat"
+                    />
+                  </div>
+                  <div className="column">
+                    <img src={halfdomemcdrew} alt="McDrew poster from 2010" />
+                    <img src={mcdrew34} alt="McDrew 34 poster" />
+                    <img src={mcdrew40} alt="McDrew 40 poster" />
+                    <img src={swim2013} alt="McDrew poster from 2013" />
+                    <img src={turtlemcdrew} alt="Turtle McDrew poster" />
+                  </div>
+
+                  <div className="column">
+                    <img src={flyer2008} alt="McDrew flyer from 2008" />
+                    <img
+                      src={goldengate}
+                      alt="Golden Gate Bridge on McDrew poster"
+                    />
+                    <img src={mcdrew2013} alt="McDrew 2013 poster" />
+                    <img src={swimmcdrew} alt="McDrew Swim Poster" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

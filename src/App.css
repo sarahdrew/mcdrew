@@ -1,5 +1,5 @@
 body {
-  font-size: 25px;
+  font-size: 20px;
   /* font-family: "Lato", sans-serif; */
   /* font-family: "Fira Sans", sans-serif; */
   font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -7,6 +7,12 @@ body {
 }
 html {
   scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1054px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 h1 {
@@ -44,7 +50,11 @@ a:visited {
   margin-right: 25px;
 }
 
-.nav-list {
+.nav-list-mobile {
+  display: none;
+}
+
+.nav-list-desktop {
   position: fixed;
   display: inline-block;
   text-align: center;
@@ -57,8 +67,8 @@ a:visited {
   padding-left: 20%;
 }
 
-.nav-list a,
-.nav-list a:visited {
+.nav-list-desktop a,
+.nav-list-desktop a:visited {
   display: flex;
   float: left;
   align-items: center;
@@ -168,7 +178,7 @@ a:visited,
 
 .started-paragraph {
   margin-left: 39px;
-  font-size: 27px;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 0;
   padding-left: 10px;
@@ -205,6 +215,7 @@ a:visited,
   margin: 0;
   padding-left: 8px;
   border-left: 5px solid #448b66;
+  margin-bottom: 20px;
 }
 
 #the-events {
@@ -308,6 +319,16 @@ a:visited,
   width: 100%;
 }
 
+.contact {
+  margin-bottom: 60px;
+  background-color: #f7f7f7;
+  margin-top: 2%;
+  padding: 24px 0px;
+  padding-right: 39px;
+  margin-bottom: 56px;
+  border-radius: 8px;
+}
+
 #email-link,
 #email-link:visited,
 .contact-sponsor,
@@ -375,10 +396,16 @@ a:visited,
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 996px) {
+  .nav-list-desktop {
+    font-size: larger;
+    padding-left: 0;
+  }
+
   .column {
     flex: 50%;
-    max-width: 50%;
+    max-width: 79%;
+    justify-content: center;
   }
 }
 

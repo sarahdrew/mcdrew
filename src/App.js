@@ -3,7 +3,6 @@ import Nav from "./Nav";
 import React, { Component } from "react";
 import TheMcDrew from "./TheMcDrew";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import TheEvents from "./TheEvents";
 import McDrewGallery from "./mcDrewGallery";
 import Sponsors from "./Sponsors";
 import Donations from "./Donations";
@@ -20,10 +19,11 @@ class App extends Component {
         <Nav />
         <div
           className="header-photo"
+          id="the-mcdrew"
           style={{ backgroundImage: { centeredLogo } }}
         >
           <header className="App-header">
-            <h1>The 48th Annual McDrew Festival</h1>
+            <h1>The 47th Annual McDrew Festival</h1>
             <h2>Tennis Bags Swimming Jazz</h2>
           </header>
         </div>
@@ -32,9 +32,7 @@ class App extends Component {
             <Route exact path="/">
               <TheMcDrew />
             </Route>
-            <Route exact path="/#the-events">
-              <TheEvents />
-            </Route>
+
             <Route exact path="/mcdrewgallery">
               <McDrewGallery />
             </Route>
