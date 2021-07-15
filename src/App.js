@@ -16,7 +16,6 @@ class App extends Component {
         <nav>
           <Nav />
         </nav>
-        <Nav />
         <div
           className="header-photo"
           id="the-mcdrew"

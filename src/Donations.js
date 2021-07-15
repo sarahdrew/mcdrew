@@ -6,6 +6,16 @@ function Donations() {
       <div className="container">
         <h3 id="donations">DONATIONS</h3>
         <div className="donations-wrapper">
+          <h4>
+            This year, donations will go to{" "}
+            <a
+              style={{ textDecoration: "none" }}
+              className="donation-link"
+              href="https://www.theoutletillinois.org/"
+            >
+              The Outlet
+            </a>
+          </h4>
           <p>
             Over the past several years the McDrew community has opened their
             hearts and checkbooks to support several deserving not-for-profit

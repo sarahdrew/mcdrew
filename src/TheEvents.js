@@ -14,6 +14,15 @@ function TheEvents() {
           The McDrew is back in person and we are looking forward to seeing you
           all.
         </h5>
+        <h5>
+          This year, donations will go to{" "}
+          <a
+            className="donation-link"
+            href="https://www.theoutletillinois.org/"
+          >
+            The Outlet
+          </a>
+        </h5>
         <p>
           Registration for bags and swimming will be available on location at
           time of the event. Scroll below for Doubles Tennis registration or

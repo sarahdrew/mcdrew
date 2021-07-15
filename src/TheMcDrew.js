@@ -204,7 +204,7 @@ export default class TheMcDrew extends Component {
                   elderly, guardianship, probate and small business matters
                   throughout the State of Illinois. Along with John L. Drew,
                   Kevin is the co-founder and director of the McDrew Tennis &
-                  Jazz Festival which has generated nearly $400,000.00 for
+                  Jazz Festival which has generated nearly $500,000.00 for
                   charitable organizations in Springfield and Central Illinois,
                   during its 47 year history. Mr. McDermott loves his family and
                   life long McDrew friends, and is an avid swimmer, kayaker,
