@@ -42,7 +42,10 @@ export default function CountDownTimer() {
   return (
     <div className="countdown-container">
       <h2>McDrew 2021 Countdown</h2>
-      {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+      <h5 style={{ color: "white" }}>
+        Friday, August 13! McDrew at 4pm Central today
+      </h5>
+      <h5 style={{ color: "white" }}>See you there!</h5>
     </div>
   );
 }
