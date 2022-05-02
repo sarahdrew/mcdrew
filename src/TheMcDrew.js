@@ -18,7 +18,7 @@ export default class TheMcDrew extends Component {
     return (
       <>
         <div id="details">
-          <CountDownTimer />
+          {/* <CountDownTimer /> */}
           <TheEvents />
           <div className="description-paragraph">
             <img
