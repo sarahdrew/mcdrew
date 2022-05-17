@@ -10,19 +10,16 @@ function TheEvents() {
     <div className="container">
       <div id="the-events">
         <h3>The McDrew Events</h3>
-        <h5>
-          The McDrew is back in person and we are looking forward to seeing you
-          all.
-        </h5>
-        <h5>
+        <h4>
           This year, donations will go to{" "}
           <a
             className="donation-link"
-            href="https://www.theoutletillinois.org/"
+            target="_blank"
+            href="https://www.wbgl.org/community-resource/st-martin-deporres-center/"
           >
-            The Outlet
+            St. Martin de Porres
           </a>
-        </h5>
+        </h4>
         <p>
           Registration for bags and swimming will be available on location at
           time of the event. Scroll below for Doubles Tennis registration or
@@ -30,14 +27,14 @@ function TheEvents() {
         </p>
         <div className="event-details">
           <h4>
-            <p>AUGUST 13, 2021</p>
+            <p>AUGUST 12, 2022 @ 4:00pm</p>
             <p>THE MCDREW TOURNAMENT: TENNIS BAGS JAZZ</p>
             <p>Washington Park at the Velasco Tennis Center</p>
-            <p>Music by Kevin Hart & The Vibe Tribe</p>{" "}
+            <p>Music by <a href="https://www.chicagodiamondtrio.com/" target="_blank">The Chicago Diamond Trio</a></p>{" "}
           </h4>
           <div className="bags-info">
             <span style={{ color: "#076381", fontWeight: "900" }}>
-              <p> AUGUST 13, 2021</p>
+              <p> AUGUST 12, 2022</p>
               <p>THOMAS E JENNINGS BAGS</p>
             </span>
             <p>
@@ -90,7 +87,7 @@ function TheEvents() {
           </div>
           <div className="tennis-info">
             <span style={{ color: "#076381", fontWeight: "900" }}>
-              <p> AUGUST 13, 2021</p>
+              <p> AUGUST 12, 2022</p>
               <p>DOUBLES TENNIS</p>
             </span>
             <p>
@@ -120,7 +117,7 @@ function TheEvents() {
           </div>
         </div>
         <h4>
-          <p>AUGUST 14, 2021</p>
+          <p>AUGUST 13, 2022</p>
         </h4>
         <div className="event-details" id="swim-info">
           <span
@@ -129,11 +126,12 @@ function TheEvents() {
               fontWeight: "900",
             }}
           >
-            <p>AUGUST 14, 2021</p>
+            <p>AUGUST 13, 2022</p>
             <p>SWIM MCDREW</p>
           </span>
-          <p>Start Time: 8:15AM</p>
+          <p>Start Time: 8:30AM</p>
           <p>Illini Country Club Pool</p>
+          <p>Music by Virgil Rhodes and Footprints</p>
           <p>
             <span style={{ color: "#448b66", fontWeight: "700" }}>FEE: </span>
             Donations welcomed.
@@ -158,16 +156,10 @@ function TheEvents() {
             <span style={{ color: "#448b66", fontWeight: "700" }}>
               <p>THE TENNIS BALL</p>
               <p>Island Bay Yacht Club</p>
+              <p>5:30pm</p>
             </span>
             <h4 id="dangeroux">
-              <a
-                id="dangeroux-link"
-                href="https://www.mikedangeroux.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Music by The Mike Dangeroux Orchestra from Chicago
-              </a>
+              <p>Music by <a href="https://www.kapitalsound.com/" target="_blank">Kapital Sound</a></p>
             </h4>
             <p>
               Food, drinks, dancing, good views, and all of your favorite people

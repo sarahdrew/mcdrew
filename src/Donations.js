@@ -11,9 +11,10 @@ function Donations() {
             <a
               style={{ textDecoration: "none" }}
               className="donation-link"
-              href="https://www.theoutletillinois.org/"
+              target="_blank"
+              href="https://www.wbgl.org/community-resource/st-martin-deporres-center/"
             >
-              The Outlet
+              St. Martin de Porres
             </a>
           </h4>
           <p>
@@ -28,6 +29,7 @@ function Donations() {
           </p>
           <div className="donations-list">
             <ul>
+              <li>The Outnet </li>
               <li>Mini O’Beirne Crisis Nursery </li>
               <li>St. Patrick’s School</li>
               <li>SIU Simmons Cancer Institute</li>
