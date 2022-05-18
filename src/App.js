@@ -22,7 +22,7 @@ class App extends Component {
           style={{ backgroundImage: { centeredLogo } }}
         >
           <header className="App-header">
-            <h1>The 47th Annual McDrew Festival</h1>
+            <h1>The 48th Annual McDrew Festival</h1>
             <h2>Tennis Bags Swimming Jazz</h2>
           </header>
         </div>
