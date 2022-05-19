@@ -28,7 +28,7 @@ class App extends Component {
         </div>
         <div className="App">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="">
               <TheMcDrew />
             </Route>
 
