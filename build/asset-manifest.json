@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mcdrew/static/css/main.235f4ddc.chunk.css",
-    "main.js": "/mcdrew/static/js/main.606c9eef.chunk.js",
-    "main.js.map": "/mcdrew/static/js/main.606c9eef.chunk.js.map",
+    "main.js": "/mcdrew/static/js/main.c8b0fb4b.chunk.js",
+    "main.js.map": "/mcdrew/static/js/main.c8b0fb4b.chunk.js.map",
     "runtime-main.js": "/mcdrew/static/js/runtime-main.521bd8bc.js",
     "runtime-main.js.map": "/mcdrew/static/js/runtime-main.521bd8bc.js.map",
     "static/js/2.8de7de1d.chunk.js": "/mcdrew/static/js/2.8de7de1d.chunk.js",
@@ -75,6 +75,6 @@
     "static/js/runtime-main.521bd8bc.js",
     "static/js/2.8de7de1d.chunk.js",
     "static/css/main.235f4ddc.chunk.css",
-    "static/js/main.606c9eef.chunk.js"
+    "static/js/main.c8b0fb4b.chunk.js"
   ]
 }

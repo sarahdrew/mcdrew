@@ -233,6 +233,21 @@ a:visited,
   /* display: flex; */
 }
 
+.event-details-span {
+  color: #076381;
+  font-weight: 900;
+}
+
+.green-event-details-span {
+  color: #448b66;
+  font-weight: 900;
+}
+
+.details-span  {
+  color: #448b66;
+  font-weight: 900;
+}
+
 .bags-info,
 .tennis-info {
   border: 2px solid #076381;
