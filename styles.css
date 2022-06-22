@@ -91,6 +91,11 @@ header {
   width: 100%;
 }
 
+.mcdrew-flyer {
+  align-items: center;
+  text-align: center;
+}
+
 .countdown-container {
   width: 50%;
   display: inline-block;
@@ -420,6 +425,13 @@ a:visited,
 }
 
 @media screen and (max-width: 882px) {
+  .details-profile {
+    display: inline;
+    margin: 0;
+  }
+  .mcdrew-flyer img {
+    width:  100%
+  }
   .started-mcdrew {
     width: 80%;
     margin-left: 15%;
@@ -427,10 +439,28 @@ a:visited,
     border-radius: 8px !important;
     flex-flow: column;
   }
+  .how-it-started {
+    padding: 6px 45px;
+    width: 100%;
+  }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 996px) {
+  .details-profile {
+    display: inline;
+    margin: 0;
+  }
+  .mcdrew-flyer img {
+    width:  100%
+  }
+  .App-header{
+    background-color: none;
+    width: 100%;
+  }
+  .header-photo{
+    background: none;
+  }
   .nav-list-desktop {
     font-size: larger;
     padding-left: 0;
@@ -441,10 +471,21 @@ a:visited,
     max-width: 79%;
     justify-content: center;
   }
+  .how-it-started {
+    padding: 6px 45px;
+    width: 100%;
+  }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+  .details-profile {
+    display: inline;
+    margin: 0;
+  }
+  .mcdrew-flyer img {
+    width:  100%
+  }
   .column {
     flex: 100%;
     max-width: 100%;
@@ -464,10 +505,14 @@ a:visited,
   .App-header {
     width: 85%;
     font-size: 15px;
-    background-color: #8080801f;
+    background-color: none;
   }
   .countdown-container {
     width: 95%;
     margin-left: 0%;
+  }
+  .how-it-started {
+    padding: 6px 45px;
+    width: 100%;
   }
 }
