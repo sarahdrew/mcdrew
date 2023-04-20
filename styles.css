@@ -1,37 +1,230 @@
 body {
-  font-size: 2s5px;
-}
-
-nav {
-  text-align: center;
-  background-color: black;
-  color: white;
-}
-
-nav a,
-nav a:visited {
-  color: white;
-  margin: 2%;
   font-size: 20px;
+  /* font-family: "Lato", sans-serif; */
+  /* font-family: "Fira Sans", sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  /* font-family: "Helvetica Neue", Helvetica, sans-serif; */
+  line-height: 1.4;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1054px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 h1 {
   text-align: center;
+  margin-top: 0;
 }
-h2 {
+
+h2{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h3,
+h4,
+h5 {
   text-align: center;
 }
+
 h3 {
+  color: #448b66;
+  font-weight: 700;
+  text-align: "center";
+  font-size: 40px;
+}
+
+h4 {
   text-align: center;
+  color: #b64b26;
+}
+
+h5 {
+  color: #076381;
 }
 
 a:visited {
-  color: blue;
+  color: white;
 }
 
-#details-paragraph {
+.App {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.nav-list-mobile {
+  display: none;
+}
+
+.nav-list-desktop {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  top: 0;
+  left: -10%;
+  width: 110%;
+  list-style: none;
+}
+
+.nav-list-desktop a,
+.nav-list-desktop a:visited {
+  display: flex;
+  float: left;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 2%;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+header {
+  margin-top: 5%;
+  background-size: 31%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  width: 100%;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Source Serif Pro', serif;
+
+}
+
+.header-paragraph {
+  text-align: center;
+  font-size: 33px;
+}
+
+.mcdrew-flyer {
+  align-items: center;
+  text-align: center;
+}
+
+.countdown-container {
   width: 50%;
-  text-align: left;
+  display: inline-block;
+  margin-left: 25%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  background: #448b66;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+.centered-logo {
+  width: 25%;
+  margin-left: 36%;
+}
+
+#the-mcdrew {
+  background-size: 14%;
+}
+
+.header-photo {
+  background-image: url("./assets/checker-background.png");
+  width: 100%;
+  background-size: 31%;
+}
+
+.paragraph {
+  margin-left: 39px;
+  font-size: 27px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.details-paragraph a,
+a:visited,
+.socials a,
+.socials a:visited,
+.email a,
+.email a:visited,
+#cornhole-link,
+#dangeroux-link,
+#yachtclub-link,
+.donation-link:visited {
+  color: #076381;
+  text-decoration: none;
+}
+
+.details-paragraph a:hover,
+.socials a:hover,
+#cornhole-link:hover,
+#yachtclub-link:hover,
+#dangeroux-link:hover,
+.donation-link:hover {
+  color: #b64b26;
+  text-decoration: underline;
+}
+
+.email a:hover {
+  color: #b64b26;
+  text-decoration: underline;
+}
+
+.green-checkerboard {
+  width: 16%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.mcdrew-description-wrapper {
+  width: 90%;
+  margin-left: 10px;
+}
+.mcdrew-description-wrapper {
+  margin-left: 2%;
+}
+.how-it-started {
+  /* display: flex; */
+  margin-bottom: 60px;
+  background-color: #f7f7f7;
+  margin-top: -3%;
+  padding: 24px 0px;
+  padding-right: 39px;
+  margin-bottom: 56px;
+  border-radius: 8px;
+}
+
+.started-paragraph {
+  margin-left: 39px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-top: 5%;
+}
+
+.started-mcdrew {
+  width: 30%;
+  height: auto;
+  border-radius: 8px !important;
+  margin-left: 10px;
+}
+
+.description-paragraph {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 10px;
 }
 .details-profile {
   display: flex;
@@ -39,6 +232,324 @@ a:visited {
 }
 
 .details-portrait {
-  border: 1px solid green;
   margin: 5px;
+}
+
+.details-paragraph {
+  margin: 0;
+  padding-left: 8px;
+  border-left: 5px solid #448b66;
+  margin-bottom: 20px;
+}
+
+#the-events {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  width: 101%;
+  margin: -10px;
+  /* margin: 10px; */
+}
+
+.event-details {
+  margin: 5px;
+  /* display: flex; */
+}
+
+.event-details-span {
+  color: #076381;
+  font-weight: 900;
+}
+
+.event-details-paragraph {
+  font-size: 28px;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 5px;
+}
+.event-details-paragraph-2 {
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+.green-event-details-span {
+  color: #448b66;
+  font-weight: 900;
+}
+
+.details-span  {
+  color: #448b66;
+  font-weight: 900;
+}
+
+.bags-info,
+.tennis-info {
+  border: 2px solid #076381;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+}
+
+#swim-info,
+.tennis-ball-info {
+  border: 2px solid #448b66;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.register-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  color: white;
+  background: #076381;
+  text-decoration: none;
+  text-align: center;
+}
+
+.register-button:hover {
+  background-color: #b64b26;
+}
+
+.more-cornhole {
+  display: block;
+}
+
+.no-cornhole {
+  display: none;
+}
+
+#johnAndKevin {
+  width: 33%;
+  height: 33%;
+}
+
+#dangeroux {
+  text-align: left;
+}
+
+.archives {
+  display: block;
+}
+
+.no-archives {
+  display: none;
+}
+
+.archives-button {
+  margin-bottom: 50px;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 16px;
+  color: white;
+  background: #076381;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 50%;
+}
+
+.gallery-wrapper {
+  margin-left: 10%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.contact {
+  margin-bottom: 60px;
+  background-color: #f7f7f7;
+  margin-top: 2%;
+  padding: 24px 0px;
+  padding-right: 39px;
+  margin-bottom: 56px;
+  border-radius: 8px;
+}
+
+#email-link,
+#email-link:visited,
+.contact-sponsor,
+.contact-sponsor :visited {
+  color: #076381;
+  text-decoration: none;
+}
+
+#email-link:hover,
+.contact-sponsor:hover {
+  color: #b64b26;
+  text-decoration: underline;
+}
+
+.email,
+.socials,
+.other-links {
+  margin: 20px;
+}
+
+.sponsors-header {
+  font-family: 'Libre Baskerville', serif;
+  color: #448b66;
+  font-weight: 700px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.sponsors-container {
+  margin: 20px;
+  align-items: center;
+
+}
+
+.sponsors-wrapper {
+  display: flex !important;
+  margin-left: 15px;
+  flex-wrap: wrap;
+  /* max-width: 1224px; */
+  justify-content: center;
+}
+
+.sponsor {
+  border: 5px solid #448b66;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  /* margin-left: 0; */
+}
+
+.donations-list li {
+  list-style: none;
+}
+
+#donations {
+  color:#448b66;
+  font-size: 40px;
+
+}
+
+.donations-wrapper {
+  background-color: #f7f7f7;
+  margin-top: 16px;
+  padding: 24px 0px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+.donations-wrapper p {
+  margin-left: 15px;
+  margin-top: 2px;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 882px) {
+  .details-profile {
+    display: inline;
+    margin: 0;
+  }
+  .mcdrew-flyer img {
+    width:  100%
+  }
+  .started-mcdrew {
+    width: 80%;
+    margin-left: 15%;
+    height: auto;
+    border-radius: 8px !important;
+    flex-flow: column;
+  }
+  .how-it-started {
+    padding: 6px 45px;
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 996px) {
+  .details-profile {
+    display: inline;
+    margin: 0;
+  }
+  .mcdrew-flyer img {
+    width:  100%
+  }
+  .App-header{
+    background-color: none;
+    width: 100%;
+  }
+  .header-photo{
+    background: none;
+  }
+  .nav-list-desktop {
+    font-size: larger;
+    padding-left: 0;
+  }
+
+  .column {
+    flex: 50%;
+    max-width: 79%;
+    justify-content: center;
+  }
+  .how-it-started {
+    padding: 6px 45px;
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .details-profile {
+    display: inline;
+    margin: 0;
+  }
+  .mcdrew-flyer img {
+    width:  100%
+  }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .nav-list-desktop a {
+    font-size: 13px;
+  }
+
+  .description-paragraph {
+    display: none;
+  }
+
+  .header-photo {
+    width: 120%;
+  }
+  .App-header {
+    width: 85%;
+    font-size: 15px;
+    background-color: none;
+  }
+  .countdown-container {
+    width: 95%;
+    margin-left: 0%;
+  }
+  .how-it-started {
+    padding: 6px 45px;
+    width: 100%;
+  }
 }
